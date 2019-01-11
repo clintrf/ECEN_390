@@ -3,9 +3,8 @@
 
 #include <stdio.h>
 #include "supportFiles/display.h"
-#include "queue.h"
 int main() {
-    queue_runTest();
+
 }
 
 // This function must be defined but can be left empty for now.

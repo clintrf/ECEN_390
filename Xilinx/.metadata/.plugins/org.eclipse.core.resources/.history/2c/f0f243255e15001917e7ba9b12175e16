@@ -70,8 +70,7 @@ void queue_push(queue_t* q, queue_data_t value){
   if (queue_full(q)){                               // check q is full
     q->overflowFlag = 1;                               // set overflowFlag
     printf("ERROR queue %s is full \r\n", q->name); // print error that 'queue name' is full
-  }
-  else{
+  }else{
     q->data[q->indexIn] = value;                      // update queue with new value
     q->indexIn = incrementIndex(q,q->indexIn);        // track index
     q->elementCount++;                                // track total number of elements

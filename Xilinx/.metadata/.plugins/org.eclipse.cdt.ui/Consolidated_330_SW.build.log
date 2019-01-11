@@ -1,21 +1,6 @@
-21:51:34 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+22:07:13 **** Incremental Build of configuration Debug for project Consolidated_330_SW ****
 make all 
-'Building file: ../src/lab_01/main.c'
-'Invoking: ARM g++ compiler'
-arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab_01/main.d" -MT"src/lab_01/main.d" -o "src/lab_01/main.o" "../src/lab_01/main.c"
-'Finished building: ../src/lab_01/main.c'
-' '
-'Building target: Consolidated_330_SW.elf'
-'Invoking: ARM g++ linker'
-arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../Consolidated_330_SW_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/bluetooth.o ./supportFiles/circularBuffer.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/tftGpio.o ./supportFiles/utils.o  ./src/lab_01/main.o ./src/lab_01/queue.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
-'Finished building target: Consolidated_330_SW.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
-   text	   data	    bss	    dec	    hex	filename
- 210900	   3184	3010216	3224300	 3132ec	Consolidated_330_SW.elf
-'Finished building: Consolidated_330_SW.elf.size'
-' '
+make: Nothing to be done for `all'.
 
-21:51:41 Build Finished (took 6s.330ms)
+22:07:14 Build Finished (took 907ms)
 
