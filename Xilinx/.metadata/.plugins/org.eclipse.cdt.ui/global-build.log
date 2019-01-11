@@ -512,3 +512,679 @@ arm-xilinx-eabi-size zynq_fsbl.elf  |tee "zynq_fsbl.elf.size"
   70452	  11884	  73316	 155652	  26004	zynq_fsbl.elf
 'Finished building: zynq_fsbl.elf.size'
 ' '
+21:21:54 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+make: Nothing to be done for `all'.
+21:22:45 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+make: Nothing to be done for `all'.
+21:23:36 **** Clean-only build of configuration Debug for project Consolidated_330_SW ****
+make clean 
+rm -rf  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/bluetooth.o ./supportFiles/circularBuffer.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/tftGpio.o ./supportFiles/utils.o  ./src/lab_01/main.o  ./src/helloWorld/main.o  ./supportFiles/bluetooth.d ./supportFiles/circularBuffer.d ./supportFiles/glcdfont.d ./supportFiles/globalTimer.d ./supportFiles/interrupts.d ./supportFiles/lcd.d ./supportFiles/leds.d ./supportFiles/mio.d ./supportFiles/spi.d ./supportFiles/tftGpio.d  ./src/lab_01/main.d  ./src/helloWorld/main.d  ./supportFiles/Adafruit_GFX.d ./supportFiles/Adafruit_STMPE610.d ./supportFiles/Adafruit_TFTLCD.d ./supportFiles/Print.d ./supportFiles/WString.d ./supportFiles/display.d ./supportFiles/new.d ./supportFiles/utils.d  Consolidated_330_SW.elf.size  Consolidated_330_SW.elf
+' '
+21:23:37 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../supportFiles/Adafruit_GFX.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/Adafruit_GFX.d" -MT"supportFiles/Adafruit_GFX.d" -o "supportFiles/Adafruit_GFX.o" "../supportFiles/Adafruit_GFX.cpp"
+'Finished building: ../supportFiles/Adafruit_GFX.cpp'
+' '
+'Building file: ../supportFiles/Adafruit_STMPE610.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/Adafruit_STMPE610.d" -MT"supportFiles/Adafruit_STMPE610.d" -o "supportFiles/Adafruit_STMPE610.o" "../supportFiles/Adafruit_STMPE610.cpp"
+'Finished building: ../supportFiles/Adafruit_STMPE610.cpp'
+' '
+'Building file: ../supportFiles/Adafruit_TFTLCD.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/Adafruit_TFTLCD.d" -MT"supportFiles/Adafruit_TFTLCD.d" -o "supportFiles/Adafruit_TFTLCD.o" "../supportFiles/Adafruit_TFTLCD.cpp"
+'Finished building: ../supportFiles/Adafruit_TFTLCD.cpp'
+' '
+'Building file: ../supportFiles/Print.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/Print.d" -MT"supportFiles/Print.d" -o "supportFiles/Print.o" "../supportFiles/Print.cpp"
+'Finished building: ../supportFiles/Print.cpp'
+' '
+'Building file: ../supportFiles/WString.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/WString.d" -MT"supportFiles/WString.d" -o "supportFiles/WString.o" "../supportFiles/WString.cpp"
+'Finished building: ../supportFiles/WString.cpp'
+' '
+'Building file: ../supportFiles/bluetooth.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/bluetooth.d" -MT"supportFiles/bluetooth.d" -o "supportFiles/bluetooth.o" "../supportFiles/bluetooth.c"
+'Finished building: ../supportFiles/bluetooth.c'
+' '
+'Building file: ../supportFiles/circularBuffer.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/circularBuffer.d" -MT"supportFiles/circularBuffer.d" -o "supportFiles/circularBuffer.o" "../supportFiles/circularBuffer.c"
+'Finished building: ../supportFiles/circularBuffer.c'
+' '
+'Building file: ../supportFiles/display.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/display.d" -MT"supportFiles/display.d" -o "supportFiles/display.o" "../supportFiles/display.cpp"
+'Finished building: ../supportFiles/display.cpp'
+' '
+'Building file: ../supportFiles/glcdfont.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/glcdfont.d" -MT"supportFiles/glcdfont.d" -o "supportFiles/glcdfont.o" "../supportFiles/glcdfont.c"
+'Finished building: ../supportFiles/glcdfont.c'
+' '
+'Building file: ../supportFiles/globalTimer.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/globalTimer.d" -MT"supportFiles/globalTimer.d" -o "supportFiles/globalTimer.o" "../supportFiles/globalTimer.c"
+'Finished building: ../supportFiles/globalTimer.c'
+' '
+'Building file: ../supportFiles/interrupts.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/interrupts.d" -MT"supportFiles/interrupts.d" -o "supportFiles/interrupts.o" "../supportFiles/interrupts.c"
+'Finished building: ../supportFiles/interrupts.c'
+' '
+'Building file: ../supportFiles/lcd.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/lcd.d" -MT"supportFiles/lcd.d" -o "supportFiles/lcd.o" "../supportFiles/lcd.c"
+'Finished building: ../supportFiles/lcd.c'
+' '
+'Building file: ../supportFiles/leds.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/leds.d" -MT"supportFiles/leds.d" -o "supportFiles/leds.o" "../supportFiles/leds.c"
+'Finished building: ../supportFiles/leds.c'
+' '
+'Building file: ../supportFiles/mio.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/mio.d" -MT"supportFiles/mio.d" -o "supportFiles/mio.o" "../supportFiles/mio.c"
+'Finished building: ../supportFiles/mio.c'
+' '
+'Building file: ../supportFiles/new.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/new.d" -MT"supportFiles/new.d" -o "supportFiles/new.o" "../supportFiles/new.cpp"
+'Finished building: ../supportFiles/new.cpp'
+' '
+'Building file: ../supportFiles/spi.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/spi.d" -MT"supportFiles/spi.d" -o "supportFiles/spi.o" "../supportFiles/spi.c"
+'Finished building: ../supportFiles/spi.c'
+' '
+'Building file: ../supportFiles/tftGpio.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/tftGpio.d" -MT"supportFiles/tftGpio.d" -o "supportFiles/tftGpio.o" "../supportFiles/tftGpio.c"
+'Finished building: ../supportFiles/tftGpio.c'
+' '
+'Building file: ../supportFiles/utils.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/utils.d" -MT"supportFiles/utils.d" -o "supportFiles/utils.o" "../supportFiles/utils.cpp"
+'Finished building: ../supportFiles/utils.cpp'
+' '
+'Building file: ../src/lab_01/main.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab_01/main.d" -MT"src/lab_01/main.d" -o "src/lab_01/main.o" "../src/lab_01/main.c"
+'Finished building: ../src/lab_01/main.c'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../Consolidated_330_SW_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/bluetooth.o ./supportFiles/circularBuffer.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/tftGpio.o ./supportFiles/utils.o  ./src/lab_01/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Consolidated_330_SW.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 199276	   3184	3010216	3212676	 310584	Consolidated_330_SW.elf
+'Finished building: Consolidated_330_SW.elf.size'
+' '
+21:25:24 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+make: Nothing to be done for `all'.
+21:26:10 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+make: Nothing to be done for `all'.
+21:26:25 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab_01/queue.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab_01/queue.d" -MT"src/lab_01/queue.d" -o "src/lab_01/queue.o" "../src/lab_01/queue.c"
+'Finished building: ../src/lab_01/queue.c'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../Consolidated_330_SW_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/bluetooth.o ./supportFiles/circularBuffer.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/tftGpio.o ./supportFiles/utils.o  ./src/lab_01/main.o ./src/lab_01/queue.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Consolidated_330_SW.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 199276	   3184	3010216	3212676	 310584	Consolidated_330_SW.elf
+'Finished building: Consolidated_330_SW.elf.size'
+' '
+21:26:47 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:405: undefined reference to `queue_elementCount(queue_t*)'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Consolidated_330_SW.elf] Error 1
+lude -MMD -MP -MF"src/lab_01/queue.d" -MT"src/lab_01/queue.d" -o "src/lab_01/queue.o" "../src/lab_01/queue.c"
+'Finished building: ../src/lab_01/queue.c'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../Consolidated_330_SW_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/bluetooth.o ./supportFiles/circularBuffer.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/tftGpio.o ./supportFiles/utils.o  ./src/lab_01/main.o ./src/lab_01/queue.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+./src/lab_01/queue.o: In function `queue_printQueueStatus':
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:55: undefined reference to `queue_overflow(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:62: undefined reference to `queue_underflow(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:69: undefined reference to `queue_full(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:73: undefined reference to `queue_elementCount(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:77: undefined reference to `queue_elementCount(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:80: undefined reference to `queue_empty(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:87: undefined reference to `queue_elementCount(queue_t*)'
+./src/lab_01/queue.o: In function `queue_emptyTest':
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:102: undefined reference to `queue_pop(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:118: undefined reference to `queue_readElementAt(queue_t*, unsigned long)'
+./src/lab_01/queue.o: In function `queue_fillTest':
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:140: undefined reference to `queue_push(queue_t*, double)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:143: undefined reference to `queue_readElementAt(queue_t*, unsigned long)'
+./src/lab_01/queue.o: In function `queue_pushPopTest':
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:192: undefined reference to `queue_empty(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:203: undefined reference to `queue_elementCount(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:214: undefined reference to `queue_push(queue_t*, double)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:219: undefined reference to `queue_elementCount(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:221: undefined reference to `queue_elementCount(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:235: undefined reference to `queue_pop(queue_t*)'
+./src/lab_01/queue.o: In function `queue_testErrorConditions()':
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:257: undefined reference to `queue_empty(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:265: undefined reference to `queue_pop(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:266: undefined reference to `queue_underflow(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:274: undefined reference to `queue_push(queue_t*, double)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:277: undefined reference to `queue_overflow(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:283: undefined reference to `queue_underflow(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:289: undefined reference to `queue_full(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:295: undefined reference to `queue_pop(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:296: undefined reference to `queue_overflow(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:302: undefined reference to `queue_full(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:308: undefined reference to `queue_underflow(queue_t*)'
+./src/lab_01/queue.o: In function `queue_overwritePushTest()':
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:336: undefined reference to `queue_overwritePush(queue_t*, double)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:339: undefined reference to `queue_overwritePush(queue_t*, double)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:343: undefined reference to `queue_readElementAt(queue_t*, unsigned long)'
+./src/lab_01/queue.o: In function `queue_runTest()':
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:389: undefined reference to `queue_elementCount(queue_t*)'
+J:\ECEN_390\Xilinx\Consolidated_330_SW\Debug/../src/lab_01/queue.c:390: undefined reference to `queue_elementCount(queue_t*)'
+21:29:22 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab_01/queue.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab_01/queue.d" -MT"src/lab_01/queue.d" -o "src/lab_01/queue.o" "../src/lab_01/queue.c"
+../src/lab_01/queue.c: In function 'bool queue_full(queue_t*)':
+../src/lab_01/queue.c:44:65: error: 'incrementIndex' was not declared in this scope
+ bool queue_full(queue_t* q) {return (incrementIndex(q,q->indexIn) == q->indexOut);}
+                                                                 ^
+../src/lab_01/queue.c: In function 'void queue_push(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:70:5: error: 'overflowFlag' was not declared in this scope
+     overflowFlag = 1;                               // set overflowFlag
+     ^
+../src/lab_01/queue.c:72:5: error: break statement not within loop or switch
+     break;                                          // exit funtion without changing queue
+     ^
+../src/lab_01/queue.c:77:3: error: 'underflowFlag' was not declared in this scope
+   underflowFlag = 0;                                // set underflowFlag
+   ^
+../src/lab_01/queue.c: In function 'void queue_overwritePush(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:83:19: warning: the address of 'bool queue_full(queue_t*)' will always evaluate as 'true' [-Waddress]
+     if (queue_full){queue_pop(q);}
+                   ^
+../src/lab_01/queue.c: In function 'queue_data_t queue_readElementAt(queue_t*, queue_index_t)':
+../src/lab_01/queue.c:92:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+       printf("ERROR: Cannot access element %d because queue %s only has %d elements\n", index, q->name, q->elementCount);
+                                                                                                                        ^
+../src/lab_01/queue.c:92:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:92:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:92:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c: In function 'queue_size_t queue_elementCount(queue_t*)':
+../src/lab_01/queue.c:111:23: warning: the address of 'bool queue_empty(queue_t*)' will always evaluate as 'true' [-Waddress]
+   else if (queue_empty){return 0;}                    // check if queue is empty
+                       ^
+../src/lab_01/queue.c:113:1: error: expected ';' before '}' token
+ }
+ ^
+../src/lab_01/queue.c: In function 'void queue_print(queue_t*)':
+../src/lab_01/queue.c:124:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int32_t i = 0; i < q->elementCount){
+                              ^
+../src/lab_01/queue.c:124:42: error: expected ';' before ')' token
+   for (int32_t i = 0; i < q->elementCount){
+                                          ^
+../src/lab_01/queue.c:125:48: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_data_t {aka double}' [-Wformat=]
+     printf("%d \r\n", queue_readElementAt(q, i));
+                                                ^
+../src/lab_01/queue.c:125:48: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_data_t {aka double}' [-Wformat=]
+../src/lab_01/queue.c: In function 'bool queue_full(queue_t*)':
+../src/lab_01/queue.c:44:83: warning: control reaches end of non-void function [-Wreturn-type]
+ bool queue_full(queue_t* q) {return (incrementIndex(q,q->indexIn) == q->indexOut);}
+                                                                                   ^
+make: *** [src/lab_01/queue.o] Error 1
+21:31:09 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab_01/queue.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab_01/queue.d" -MT"src/lab_01/queue.d" -o "src/lab_01/queue.o" "../src/lab_01/queue.c"
+../src/lab_01/queue.c: In function 'void queue_push(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:71:5: error: 'overflowFlag' was not declared in this scope
+     overflowFlag = 1;                               // set overflowFlag
+     ^
+../src/lab_01/queue.c:73:5: error: break statement not within loop or switch
+     break;                                          // exit funtion without changing queue
+     ^
+../src/lab_01/queue.c:78:3: error: 'underflowFlag' was not declared in this scope
+   underflowFlag = 0;                                // set underflowFlag
+   ^
+../src/lab_01/queue.c: In function 'void queue_overwritePush(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:84:19: warning: the address of 'bool queue_full(queue_t*)' will always evaluate as 'true' [-Waddress]
+     if (queue_full){queue_pop(q);}
+                   ^
+../src/lab_01/queue.c: In function 'queue_data_t queue_readElementAt(queue_t*, queue_index_t)':
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+       printf("ERROR: Cannot access element %d because queue %s only has %d elements\n", index, q->name, q->elementCount);
+                                                                                                                        ^
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c: In function 'queue_size_t queue_elementCount(queue_t*)':
+../src/lab_01/queue.c:112:23: warning: the address of 'bool queue_empty(queue_t*)' will always evaluate as 'true' [-Waddress]
+   else if (queue_empty){return 0;}                    // check if queue is empty
+                       ^
+../src/lab_01/queue.c:114:1: error: expected ';' before '}' token
+ }
+ ^
+../src/lab_01/queue.c: In function 'void queue_print(queue_t*)':
+../src/lab_01/queue.c:125:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int32_t i = 0; i < q->elementCount){
+                              ^
+../src/lab_01/queue.c:125:42: error: expected ';' before ')' token
+   for (int32_t i = 0; i < q->elementCount){
+                                          ^
+../src/lab_01/queue.c:126:48: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_data_t {aka double}' [-Wformat=]
+     printf("%d \r\n", queue_readElementAt(q, i));
+                                                ^
+../src/lab_01/queue.c:126:48: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_data_t {aka double}' [-Wformat=]
+make: *** [src/lab_01/queue.o] Error 1
+21:31:38 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab_01/queue.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab_01/queue.d" -MT"src/lab_01/queue.d" -o "src/lab_01/queue.o" "../src/lab_01/queue.c"
+../src/lab_01/queue.c: In function 'void queue_push(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:73:5: error: break statement not within loop or switch
+     break;                                          // exit funtion without changing queue
+     ^
+../src/lab_01/queue.c:78:3: error: 'underflowFlag' was not declared in this scope
+   underflowFlag = 0;                                // set underflowFlag
+   ^
+../src/lab_01/queue.c: In function 'void queue_overwritePush(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:84:19: warning: the address of 'bool queue_full(queue_t*)' will always evaluate as 'true' [-Waddress]
+     if (queue_full){queue_pop(q);}
+                   ^
+../src/lab_01/queue.c: In function 'queue_data_t queue_readElementAt(queue_t*, queue_index_t)':
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+       printf("ERROR: Cannot access element %d because queue %s only has %d elements\n", index, q->name, q->elementCount);
+                                                                                                                        ^
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c: In function 'queue_size_t queue_elementCount(queue_t*)':
+../src/lab_01/queue.c:112:23: warning: the address of 'bool queue_empty(queue_t*)' will always evaluate as 'true' [-Waddress]
+   else if (queue_empty){return 0;}                    // check if queue is empty
+                       ^
+../src/lab_01/queue.c:114:1: error: expected ';' before '}' token
+ }
+ ^
+../src/lab_01/queue.c: In function 'void queue_print(queue_t*)':
+../src/lab_01/queue.c:125:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int32_t i = 0; i < q->elementCount){
+                              ^
+../src/lab_01/queue.c:125:42: error: expected ';' before ')' token
+   for (int32_t i = 0; i < q->elementCount){
+                                          ^
+../src/lab_01/queue.c:126:48: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_data_t {aka double}' [-Wformat=]
+     printf("%d \r\n", queue_readElementAt(q, i));
+                                                ^
+../src/lab_01/queue.c:126:48: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_data_t {aka double}' [-Wformat=]
+make: *** [src/lab_01/queue.o] Error 1
+21:31:55 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab_01/queue.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab_01/queue.d" -MT"src/lab_01/queue.d" -o "src/lab_01/queue.o" "../src/lab_01/queue.c"
+../src/lab_01/queue.c: In function 'void queue_push(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:73:5: error: break statement not within loop or switch
+     break;                                          // exit funtion without changing queue
+     ^
+../src/lab_01/queue.c: In function 'void queue_overwritePush(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:84:19: warning: the address of 'bool queue_full(queue_t*)' will always evaluate as 'true' [-Waddress]
+     if (queue_full){queue_pop(q);}
+                   ^
+../src/lab_01/queue.c: In function 'queue_data_t queue_readElementAt(queue_t*, queue_index_t)':
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+       printf("ERROR: Cannot access element %d because queue %s only has %d elements\n", index, q->name, q->elementCount);
+                                                                                                                        ^
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c: In function 'queue_size_t queue_elementCount(queue_t*)':
+../src/lab_01/queue.c:112:23: warning: the address of 'bool queue_empty(queue_t*)' will always evaluate as 'true' [-Waddress]
+   else if (queue_empty){return 0;}                    // check if queue is empty
+                       ^
+../src/lab_01/queue.c:114:1: error: expected ';' before '}' token
+ }
+ ^
+../src/lab_01/queue.c: In function 'void queue_print(queue_t*)':
+../src/lab_01/queue.c:125:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int32_t i = 0; i < q->elementCount){
+                              ^
+../src/lab_01/queue.c:125:42: error: expected ';' before ')' token
+   for (int32_t i = 0; i < q->elementCount){
+                                          ^
+../src/lab_01/queue.c:126:48: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_data_t {aka double}' [-Wformat=]
+     printf("%d \r\n", queue_readElementAt(q, i));
+                                                ^
+../src/lab_01/queue.c:126:48: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_data_t {aka double}' [-Wformat=]
+make: *** [src/lab_01/queue.o] Error 1
+21:45:03 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab_01/queue.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab_01/queue.d" -MT"src/lab_01/queue.d" -o "src/lab_01/queue.o" "../src/lab_01/queue.c"
+../src/lab_01/queue.c: In function 'void queue_push(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:73:5: error: break statement not within loop or switch
+     break;                                          // exit funtion without changing queue
+     ^
+../src/lab_01/queue.c: In function 'void queue_overwritePush(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:84:19: warning: the address of 'bool queue_full(queue_t*)' will always evaluate as 'true' [-Waddress]
+     if (queue_full){queue_pop(q);}
+                   ^
+../src/lab_01/queue.c: In function 'queue_data_t queue_readElementAt(queue_t*, queue_index_t)':
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+       printf("ERROR: Cannot access element %d because queue %s only has %d elements\n", index, q->name, q->elementCount);
+                                                                                                                        ^
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c: In function 'queue_size_t queue_elementCount(queue_t*)':
+../src/lab_01/queue.c:112:23: warning: the address of 'bool queue_empty(queue_t*)' will always evaluate as 'true' [-Waddress]
+   else if (queue_empty){return 0;}                    // check if queue is empty
+                       ^
+../src/lab_01/queue.c: In function 'void queue_print(queue_t*)':
+../src/lab_01/queue.c:125:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int32_t i = 0; i < q->elementCount){
+                              ^
+../src/lab_01/queue.c:125:42: error: expected ';' before ')' token
+   for (int32_t i = 0; i < q->elementCount){
+                                          ^
+../src/lab_01/queue.c:126:48: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_data_t {aka double}' [-Wformat=]
+     printf("%d \r\n", queue_readElementAt(q, i));
+                                                ^
+../src/lab_01/queue.c:126:48: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_data_t {aka double}' [-Wformat=]
+make: *** [src/lab_01/queue.o] Error 1
+21:45:58 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab_01/queue.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab_01/queue.d" -MT"src/lab_01/queue.d" -o "src/lab_01/queue.o" "../src/lab_01/queue.c"
+../src/lab_01/queue.c: In function 'void queue_push(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:73:5: error: break statement not within loop or switch
+     break;                                          // exit funtion without changing queue
+     ^
+../src/lab_01/queue.c: In function 'void queue_overwritePush(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:84:19: warning: the address of 'bool queue_full(queue_t*)' will always evaluate as 'true' [-Waddress]
+     if (queue_full){queue_pop(q);}
+                   ^
+../src/lab_01/queue.c: In function 'queue_data_t queue_readElementAt(queue_t*, queue_index_t)':
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+       printf("ERROR: Cannot access element %d because queue %s only has %d elements\n", index, q->name, q->elementCount);
+                                                                                                                        ^
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c: In function 'queue_size_t queue_elementCount(queue_t*)':
+../src/lab_01/queue.c:112:23: warning: the address of 'bool queue_empty(queue_t*)' will always evaluate as 'true' [-Waddress]
+   else if (queue_empty){return 0;}                    // check if queue is empty
+                       ^
+../src/lab_01/queue.c: In function 'void queue_print(queue_t*)':
+../src/lab_01/queue.c:125:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int32_t i = 0; i < q->elementCount; i++){
+                              ^
+../src/lab_01/queue.c:126:48: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_data_t {aka double}' [-Wformat=]
+     printf("%d \r\n", queue_readElementAt(q, i));
+                                                ^
+../src/lab_01/queue.c:126:48: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_data_t {aka double}' [-Wformat=]
+make: *** [src/lab_01/queue.o] Error 1
+21:46:50 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab_01/queue.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab_01/queue.d" -MT"src/lab_01/queue.d" -o "src/lab_01/queue.o" "../src/lab_01/queue.c"
+../src/lab_01/queue.c: In function 'void queue_push(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:73:5: error: break statement not within loop or switch
+     break;                                          // exit funtion without changing queue
+     ^
+../src/lab_01/queue.c: In function 'void queue_overwritePush(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:84:19: warning: the address of 'bool queue_full(queue_t*)' will always evaluate as 'true' [-Waddress]
+     if (queue_full){queue_pop(q);}
+                   ^
+../src/lab_01/queue.c: In function 'queue_data_t queue_readElementAt(queue_t*, queue_index_t)':
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+       printf("ERROR: Cannot access element %d because queue %s only has %d elements\n", index, q->name, q->elementCount);
+                                                                                                                        ^
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c: In function 'queue_size_t queue_elementCount(queue_t*)':
+../src/lab_01/queue.c:112:23: warning: the address of 'bool queue_empty(queue_t*)' will always evaluate as 'true' [-Waddress]
+   else if (queue_empty){return 0;}                    // check if queue is empty
+                       ^
+../src/lab_01/queue.c: In function 'void queue_print(queue_t*)':
+../src/lab_01/queue.c:126:48: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_data_t {aka double}' [-Wformat=]
+     printf("%d \r\n", queue_readElementAt(q, i));
+                                                ^
+../src/lab_01/queue.c:126:48: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_data_t {aka double}' [-Wformat=]
+make: *** [src/lab_01/queue.o] Error 1
+21:47:20 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab_01/queue.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab_01/queue.d" -MT"src/lab_01/queue.d" -o "src/lab_01/queue.o" "../src/lab_01/queue.c"
+../src/lab_01/queue.c: In function 'void queue_push(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:73:5: error: break statement not within loop or switch
+     break;                                          // exit funtion without changing queue
+     ^
+../src/lab_01/queue.c: In function 'void queue_overwritePush(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:84:19: warning: the address of 'bool queue_full(queue_t*)' will always evaluate as 'true' [-Waddress]
+     if (queue_full){queue_pop(q);}
+                   ^
+../src/lab_01/queue.c: In function 'queue_data_t queue_readElementAt(queue_t*, queue_index_t)':
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+       printf("ERROR: Cannot access element %d because queue %s only has %d elements\n", index, q->name, q->elementCount);
+                                                                                                                        ^
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c: In function 'queue_size_t queue_elementCount(queue_t*)':
+../src/lab_01/queue.c:112:23: warning: the address of 'bool queue_empty(queue_t*)' will always evaluate as 'true' [-Waddress]
+   else if (queue_empty){return 0;}                    // check if queue is empty
+                       ^
+make: *** [src/lab_01/queue.o] Error 1
+21:48:01 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab_01/queue.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab_01/queue.d" -MT"src/lab_01/queue.d" -o "src/lab_01/queue.o" "../src/lab_01/queue.c"
+../src/lab_01/queue.c: In function 'void queue_push(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:73:5: error: break statement not within loop or switch
+     break;                                          // exit funtion without changing queue
+     ^
+../src/lab_01/queue.c: In function 'void queue_overwritePush(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:84:19: warning: the address of 'bool queue_full(queue_t*)' will always evaluate as 'true' [-Waddress]
+     if (queue_full){queue_pop(q);}
+                   ^
+../src/lab_01/queue.c: In function 'queue_data_t queue_readElementAt(queue_t*, queue_index_t)':
+../src/lab_01/queue.c:93:120: warning: format '%f' expects argument of type 'double', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+       printf("ERROR: Cannot access element %f because queue %s only has %f elements\n", index, q->name, q->elementCount);
+                                                                                                                        ^
+../src/lab_01/queue.c:93:120: warning: format '%f' expects argument of type 'double', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%f' expects argument of type 'double', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%f' expects argument of type 'double', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c: In function 'queue_size_t queue_elementCount(queue_t*)':
+../src/lab_01/queue.c:112:23: warning: the address of 'bool queue_empty(queue_t*)' will always evaluate as 'true' [-Waddress]
+   else if (queue_empty){return 0;}                    // check if queue is empty
+                       ^
+make: *** [src/lab_01/queue.o] Error 1
+21:48:13 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab_01/queue.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab_01/queue.d" -MT"src/lab_01/queue.d" -o "src/lab_01/queue.o" "../src/lab_01/queue.c"
+../src/lab_01/queue.c: In function 'void queue_push(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:73:5: error: break statement not within loop or switch
+     break;                                          // exit funtion without changing queue
+     ^
+../src/lab_01/queue.c: In function 'void queue_overwritePush(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:84:19: warning: the address of 'bool queue_full(queue_t*)' will always evaluate as 'true' [-Waddress]
+     if (queue_full){queue_pop(q);}
+                   ^
+../src/lab_01/queue.c: In function 'queue_data_t queue_readElementAt(queue_t*, queue_index_t)':
+../src/lab_01/queue.c:93:120: warning: format '%s' expects argument of type 'char*', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+       printf("ERROR: Cannot access element %s because queue %s only has %f elements\n", index, q->name, q->elementCount);
+                                                                                                                        ^
+../src/lab_01/queue.c:93:120: warning: format '%f' expects argument of type 'double', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%s' expects argument of type 'char*', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%f' expects argument of type 'double', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c: In function 'queue_size_t queue_elementCount(queue_t*)':
+../src/lab_01/queue.c:112:23: warning: the address of 'bool queue_empty(queue_t*)' will always evaluate as 'true' [-Waddress]
+   else if (queue_empty){return 0;}                    // check if queue is empty
+                       ^
+make: *** [src/lab_01/queue.o] Error 1
+21:48:38 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab_01/queue.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab_01/queue.d" -MT"src/lab_01/queue.d" -o "src/lab_01/queue.o" "../src/lab_01/queue.c"
+../src/lab_01/queue.c: In function 'void queue_push(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:73:5: error: break statement not within loop or switch
+     break;                                          // exit funtion without changing queue
+     ^
+../src/lab_01/queue.c: In function 'void queue_overwritePush(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:84:19: warning: the address of 'bool queue_full(queue_t*)' will always evaluate as 'true' [-Waddress]
+     if (queue_full){queue_pop(q);}
+                   ^
+../src/lab_01/queue.c: In function 'queue_data_t queue_readElementAt(queue_t*, queue_index_t)':
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+       printf("ERROR: Cannot access element %d because queue %s only has %d elements\n", index, q->name, q->elementCount);
+                                                                                                                        ^
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c: In function 'queue_size_t queue_elementCount(queue_t*)':
+../src/lab_01/queue.c:112:23: warning: the address of 'bool queue_empty(queue_t*)' will always evaluate as 'true' [-Waddress]
+   else if (queue_empty){return 0;}                    // check if queue is empty
+                       ^
+make: *** [src/lab_01/queue.o] Error 1
+21:48:58 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab_01/queue.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab_01/queue.d" -MT"src/lab_01/queue.d" -o "src/lab_01/queue.o" "../src/lab_01/queue.c"
+../src/lab_01/queue.c: In function 'void queue_push(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:73:5: error: break statement not within loop or switch
+     break;                                          // exit funtion without changing queue
+     ^
+../src/lab_01/queue.c: In function 'void queue_overwritePush(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:84:19: warning: the address of 'bool queue_full(queue_t*)' will always evaluate as 'true' [-Waddress]
+     if (queue_full){queue_pop(q);}
+                   ^
+../src/lab_01/queue.c: In function 'queue_data_t queue_readElementAt(queue_t*, queue_index_t)':
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+       printf("ERROR: Cannot access element %d because queue %s only has %d elements\n", index, q->name, q->elementCount);
+                                                                                                                        ^
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c: In function 'queue_size_t queue_elementCount(queue_t*)':
+../src/lab_01/queue.c:112:23: warning: the address of 'bool queue_empty(queue_t*)' will always evaluate as 'true' [-Waddress]
+   else if (queue_empty){return 0;}                    // check if queue is empty
+                       ^
+make: *** [src/lab_01/queue.o] Error 1
+21:50:39 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab_01/queue.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab_01/queue.d" -MT"src/lab_01/queue.d" -o "src/lab_01/queue.o" "../src/lab_01/queue.c"
+../src/lab_01/queue.c: In function 'void queue_overwritePush(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:84:19: warning: the address of 'bool queue_full(queue_t*)' will always evaluate as 'true' [-Waddress]
+     if (queue_full){queue_pop(q);}
+                   ^
+../src/lab_01/queue.c: In function 'queue_data_t queue_readElementAt(queue_t*, queue_index_t)':
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+       printf("ERROR: Cannot access element %d because queue %s only has %d elements\n", index, q->name, q->elementCount);
+                                                                                                                        ^
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 2 has type 'queue_index_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c:93:120: warning: format '%d' expects argument of type 'int', but argument 4 has type 'queue_size_t {aka long unsigned int}' [-Wformat=]
+../src/lab_01/queue.c: In function 'queue_size_t queue_elementCount(queue_t*)':
+../src/lab_01/queue.c:112:23: warning: the address of 'bool queue_empty(queue_t*)' will always evaluate as 'true' [-Waddress]
+   else if (queue_empty){return 0;}                    // check if queue is empty
+                       ^
+'Finished building: ../src/lab_01/queue.c'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../Consolidated_330_SW_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/bluetooth.o ./supportFiles/circularBuffer.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/tftGpio.o ./supportFiles/utils.o  ./src/lab_01/main.o ./src/lab_01/queue.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Consolidated_330_SW.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 211032	   3184	3010216	3224432	 313370	Consolidated_330_SW.elf
+'Finished building: Consolidated_330_SW.elf.size'
+' '
+21:51:02 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab_01/queue.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab_01/queue.d" -MT"src/lab_01/queue.d" -o "src/lab_01/queue.o" "../src/lab_01/queue.c"
+../src/lab_01/queue.c: In function 'void queue_overwritePush(queue_t*, queue_data_t)':
+../src/lab_01/queue.c:84:19: warning: the address of 'bool queue_full(queue_t*)' will always evaluate as 'true' [-Waddress]
+     if (queue_full){queue_pop(q);}
+                   ^
+../src/lab_01/queue.c: In function 'queue_size_t queue_elementCount(queue_t*)':
+../src/lab_01/queue.c:112:23: warning: the address of 'bool queue_empty(queue_t*)' will always evaluate as 'true' [-Waddress]
+   else if (queue_empty){return 0;}                    // check if queue is empty
+                       ^
+'Finished building: ../src/lab_01/queue.c'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../Consolidated_330_SW_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/bluetooth.o ./supportFiles/circularBuffer.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/tftGpio.o ./supportFiles/utils.o  ./src/lab_01/main.o ./src/lab_01/queue.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Consolidated_330_SW.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 211040	   3184	3010216	3224440	 313378	Consolidated_330_SW.elf
+'Finished building: Consolidated_330_SW.elf.size'
+' '
+21:51:16 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+make: Nothing to be done for `all'.
+21:51:34 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab_01/main.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -I"J:\ECEN_390\Xilinx\Consolidated_330_SW" -c -fmessage-length=0 -I../../Consolidated_330_SW_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab_01/main.d" -MT"src/lab_01/main.d" -o "src/lab_01/main.o" "../src/lab_01/main.c"
+'Finished building: ../src/lab_01/main.c'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../Consolidated_330_SW_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/bluetooth.o ./supportFiles/circularBuffer.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/tftGpio.o ./supportFiles/utils.o  ./src/lab_01/main.o ./src/lab_01/queue.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Consolidated_330_SW.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 210900	   3184	3010216	3224300	 3132ec	Consolidated_330_SW.elf
+'Finished building: Consolidated_330_SW.elf.size'
+' '
