@@ -59,7 +59,7 @@ queue_data_t queue_pop(queue_t* q) {
 
   queue_data_t popVal = q->data[q->indexOut];   //if queue is non-empty, we will return the value at index indexOut
   q->indexOut = incrementIndex(q, q->indexOut); //increment the index of indexOut using modular arithmetic
-  q->overflowFlag = 0;
+  q->elementCount--;                            //decrement element count
   q->elementCount--;                            // track total number of elements
   return popVal;                                //return the correct value
 }
@@ -82,7 +82,7 @@ void queue_push(queue_t* q, queue_data_t value){
 // If the queue is full, call queue_pop() and then call queue_push().
 // If the queue is not full, just call queue_push().
 void queue_overwritePush(queue_t* q, queue_data_t value){
-    if (queue_full(q)){queue_pop(q);}
+    if (queue_full){queue_pop(q);}
   queue_push(q,value);
 }
 
@@ -110,7 +110,7 @@ bool queue_overflow(queue_t* q) {
 // Returns a count of the elements currently contained in the queue.
 queue_size_t queue_elementCount(queue_t* q){
   if (queue_full(q)){return queue_size(q);}           // check if queue is full
-  else if (queue_empty(q)){return 0;}                    // check if queue is empty
+  else if (queue_empty){return 0;}                    // check if queue is empty
   return (q->elementCount);                           // if q in not empty or full
 }
 

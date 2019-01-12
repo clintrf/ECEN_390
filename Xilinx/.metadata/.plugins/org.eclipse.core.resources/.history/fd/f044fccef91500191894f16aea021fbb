@@ -110,7 +110,7 @@ bool queue_overflow(queue_t* q) {
 // Returns a count of the elements currently contained in the queue.
 queue_size_t queue_elementCount(queue_t* q){
   if (queue_full(q)){return queue_size(q);}           // check if queue is full
-  else if (queue_empty(q)){return 0;}                    // check if queue is empty
+  else if (queue_empty){return 0;}                    // check if queue is empty
   return (q->elementCount);                           // if q in not empty or full
 }
 
